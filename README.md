@@ -78,4 +78,10 @@ df['budget'] = df['budget'].fillna(median)
 
 <img src="images/heatmap.png" width="50%" alt="images">
 
-### 5. Insights and Recommendations
+### 5. Insights and Findings
+
+- There is a strong positive correlation between the movie's budget and its gross earnings (correlation coefficient: 0.74). This suggests that movies with higher budgets tend to earn more.
+- There is also a strong correlation between the number of votes a movie receives and its gross earnings (correlation coefficient: 0.63). This indicates that movies which attract more public attention and generate more reviews tend to earn more.
+- Both director and writer variables show very weak correlations with gross earnings (around -0.03). This suggests that the involvement of a particular director or writer may not significantly influence the earnings.
+
+
