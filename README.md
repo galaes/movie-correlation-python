@@ -41,7 +41,7 @@ The movies dataset (https://www.kaggle.com/datasets/danielgrijalvas/movies?selec
 
 - Gather the dataset that contains the information about movies
 
-<img src="table/date.png" width="40%" alt="images">
+<img src="images/table.png" width="80%" alt="images">
 
 ### 2. Data Preprocessing
 
@@ -66,7 +66,7 @@ df['budget'] = df['budget'].fillna(median)
 
 - Correlation matrix for all features
 
-<img src="images/corr_all_features.png" width="50%" alt="images">
+<img src="images/corr_all_features.png" width="80%" alt="images">
 
 ### 4. Visualization
 
