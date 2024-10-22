@@ -30,4 +30,52 @@ The movies dataset (https://www.kaggle.com/datasets/danielgrijalvas/movies?selec
 
 ## Tools
 
+- Python libraries
+  - pandas for data manipulation
+  - numpy for numerical analysis.
+  - matplotlib and seaborn for data visualization.
+  
 ## Methodology
+
+### 1. Data Collection
+
+- Gather the dataset that contains the information about movies
+
+<img src="table/date.png" width="40%" alt="images">
+
+### 2. Data Preprocessing
+
+- Handle missing data
+- Change the type in columns such as budget, and votes.
+- Correct the year column adding a new column correct_year
+
+```python
+#if there are 2 or more of missing values in a row-->eliminate row
+df = df.dropna(thresh=len(df.columns) - 1)
+
+#Replace missing values in the budget column with the median
+median = df['budget'].median()
+df['budget'] = df['budget'].fillna(median)
+```
+
+### 3. Correlation Analysis
+
+- Correlation matrix for numerical features
+
+<img src="images/corr_num_features.png" width="50%" alt="images">
+
+- Correlation matrix for all features
+
+<img src="images/corr_all_features.png" width="50%" alt="images">
+
+### 4. Visualization
+
+- Scatter plot Budget vs Gross Earnings
+
+<img src="images/scatter.png" width="50%" alt="images">
+
+- Correlation Matrix for numerical features Heatmap 
+
+<img src="images/heatmap.png" width="50%" alt="images">
+
+### 5. Insights and Recommendations
