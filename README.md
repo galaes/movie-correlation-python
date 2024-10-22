@@ -7,7 +7,7 @@
   - [Methodology](#methodology)
 
 ## Objective
-This project seeks to find what factors can influence the gross earnings for the movies. By conducting a correlation analysis, we will identify the key variables that have significant impacts on movie revenues.
+This project seeks to find what factors can influence the gross earnings for the movies. By conducting a correlation analysis, we will identify the key variables that significantly impact movie revenues.
 
 ## Dataset
 
@@ -46,11 +46,11 @@ The movies dataset (https://www.kaggle.com/datasets/danielgrijalvas/movies?selec
 ### 2. Data Preprocessing
 
 - Handle missing data
-- Change the type in columns such as budget, and votes.
-- Correct the year column adding a new column correct_year
+- Change the type in columns such as budget and votes.
+- Correct the year column, adding a new column correct_year
 
 ```python
-#if there are 2 or more of missing values in a row-->eliminate row
+#if there are 2 or more missing values in a row-->eliminate row
 df = df.dropna(thresh=len(df.columns) - 1)
 
 #Replace missing values in the budget column with the median
