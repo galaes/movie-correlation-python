@@ -37,6 +37,8 @@ The movies dataset (https://www.kaggle.com/datasets/danielgrijalvas/movies?selec
   
 ## Methodology
 
+[Python Code](https://github.com/galaes/movie-correlation-python/blob/70a5a7ee9817f9a97be3c16761a2d607fc4d9325/Movie%20correlation%20-%20Python.ipynb)
+
 ### 1. Data Collection
 
 - Gather the dataset that contains the information about movies
